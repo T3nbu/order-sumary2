@@ -51,7 +51,7 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
-display: flex;
+
 img {
   align-items: center;
   font-weight: bold;
@@ -93,6 +93,10 @@ img {
   color: hsl(245, 75%, 52%);
   font-weight: bold;
 }
+.link:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
 .btn1 {
   background-color: hsl(245, 75%, 52%);
   padding: 8px;
@@ -105,10 +109,18 @@ img {
   font-family: Red Hat Display;
   font-weight: bold;
 }
+.btn1:hover {
+  background-color: hsl(245, 75%, 52%);
+  opacity: 60%;
+  color: white;
+}
 .btn2 {
   text-align: center;
   margin-top: 15px;
   color: hsl(224, 23%, 55%);
   font-family: Red Hat Display;
   font-weight: bold;
+}
+.btn2:hover {
+  color: black;
 }

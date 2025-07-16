@@ -1,0 +1,114 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+.dad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100dvw;
+  height: 100dvh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 350px;
+  height: 370px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  img {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    width: 100%;
+    height: fit-content;
+  }
+}
+.title {
+  font-family: Red Hat Display;
+  font-weight: bold;
+  font-size: 20px;
+}
+display: flex;
+img {
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.paragraph {
+  font-family: Red Hat Display;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: hsl(224, 23%, 55%);
+}
+.promo {
+  display: flex;
+  flex-direction: row;
+  width: 315px;
+  height: 80px;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  justify-content: space-around;
+  border-radius: 15px;
+}
+.separator {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+}
+.type {
+  font-family: Red Hat Display;
+  font-weight: bold;
+}
+.t2 {
+  font-family: Red Hat Display;
+  color: hsl(224, 23%, 55%);
+}
+.link {
+  font-family: Red Hat Display;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+}
+.btn1 {
+  background-color: hsl(245, 75%, 52%);
+  padding: 8px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  width: 290px;
+  text-align: center;
+  border-radius: 8px;
+  color: hsl(225, 100%, 94%);
+  font-family: Red Hat Display;
+  font-weight: bold;
+}
+.btn2 {
+  text-align: center;
+  margin-top: 15px;
+  color: hsl(224, 23%, 55%);
+  font-family: Red Hat Display;
+  font-weight: bold;
+}
